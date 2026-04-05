@@ -17,12 +17,14 @@ A filtered subset (SkyWest, carrier code OO) is included in the `data/` folder.
 
 ## Project Structure
 
-```
 ├── data/                  # Dataset files
+├── EDA/                   # Exploratory data analysis
+│   ├── eda.ipynb
+│   └── plots/             # Saved EDA visualizations
 ├── notebooks/             # Jupyter notebook(s) with full ML pipeline
+├── results/               # Model output plots and figures
 ├── requirements.txt       # Python dependencies
 └── README.md
-```
 
 ## Setup and Reproducing Results
 
